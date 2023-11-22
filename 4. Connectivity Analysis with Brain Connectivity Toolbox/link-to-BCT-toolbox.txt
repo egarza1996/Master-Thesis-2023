@@ -1,0 +1,4 @@
+Before running these codes, make sure you have downloaded the BCT matlab toolbox from the following link:
+https://sites.google.com/site/bctnet/
+
+Then update the path files on the codes.

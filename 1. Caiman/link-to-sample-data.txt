@@ -1,8 +1,9 @@
 Link to a subset of our calcium imaging data of a cortical organoid.
 The names of the folders corresponding to:
 	run = spontaneous activity recording
-	run_2 = optogenetic stimultion of 50msec duration every 20 seconds
-	run_4 = ketamine
+	run_1 = optogenetic stimulation of 1 msec duration every 10 sec
+	run_2 = optogenetic stimultion of 50 msec duration every 20 sec
+	run_4 = ketamine administration
 NOTE: this is just a subset of the data, hence it is not the entire recording.
 	
 Find data here:

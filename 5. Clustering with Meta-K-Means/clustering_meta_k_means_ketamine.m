@@ -54,9 +54,8 @@ h5disp(analysis_results_file, '/estimates/F_dff_dec');
 cols_before = size(F_dff_dec, 2);
 
 % Threshold for consecutive zeros
-threshold = 1200; % if 15sec of continuous inactivity (i.e. zeroes) are found, the whole column gets discarded
-% 1000 frames / 20 fr/sec = 50sec
-% trying to return it to 1000 (from 300 initially) for "run_5" organoids
+threshold = 1200; % if 60sec of continuous inactivity (i.e. zeroes) are found, the whole column gets discarded
+% 1200 frames / 20 fr/sec = 50sec
 
 % so far i have used 1000 for org 1,2 and 300 for org 3 (otherwise it would not run)
 

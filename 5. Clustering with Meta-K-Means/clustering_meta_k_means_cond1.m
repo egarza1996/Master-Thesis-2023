@@ -55,8 +55,8 @@ h5disp(analysis_results_file, '/estimates/F_dff_dec');
 cols_before = size(F_dff_dec, 2);
 
 % Threshold for consecutive zeros
-threshold = 1200; % if 15sec of continuous inactivity (i.e. zeroes) are found, the whole column gets discarded
-% 1000 frames / 20 fr/sec = 50sec
+threshold = 1200; % if 60sec of continuous inactivity (i.e. zeroes) are found, the whole column gets discarded
+% 1200 frames / 20 fr/sec = 50sec
 
 % Create a logical vector to track columns with consecutive zeros exceeding the threshold
 remove_columns = false(1, cols_before);

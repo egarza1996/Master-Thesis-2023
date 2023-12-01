@@ -57,22 +57,22 @@ for org_idx = 1:length(organoid_folders)
             % Slicing logic based on run_idx
             if strcmp(run_folder, 'run')
                 % Slice for "run" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(1:min(num_rows, 6599), :); % 5min 30sec
+                F_dff_dec = F_dff_dec(1:min(num_rows, 6600), :); % 5min 30sec
             elseif strcmp(run_folder, 'run_1')
                 % Slice for "run_1" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(600:min(num_rows, 6599), :); % 5min (discard first 30sec of baseline activity)
+                F_dff_dec = F_dff_dec(600:min(num_rows, 6600), :); % 5min (discard first 30sec of baseline activity)
             elseif strcmp(run_folder, 'run_2')
                 % Slice for "run_2" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(600:min(num_rows, 12599), :); % 10min (discard first 30sec of baseline activity)
+                F_dff_dec = F_dff_dec(600:min(num_rows, 12600), :); % 10min (discard first 30sec of baseline activity)
             elseif strcmp(run_folder, 'run_3')
                 % Slice for "run_3" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(600:min(num_rows, 12599), :); % 10min (discard first 30sec of baseline activity)
+                F_dff_dec = F_dff_dec(600:min(num_rows, 12600), :); % 10min (discard first 30sec of baseline activity)
             elseif strcmp(run_folder, 'run_4')
                 % Slice for "run_4" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(1200:min(num_rows, 12599), :); % 9.5min (discard first 1min of baseline activity)            
+                F_dff_dec = F_dff_dec(1200:min(num_rows, 12600), :); % 9.5min (discard first 1min of baseline activity)            
             else
                 % Slice for "run_5" if the number of rows is sufficient
-                F_dff_dec = F_dff_dec(1200:min(num_rows, 12599), :); % 9.5min (discard first 1min of baseline activity)
+                F_dff_dec = F_dff_dec(1200:min(num_rows, 12600), :); % 9.5min (discard first 1min of baseline activity)
             end
 
             % Create the subfolder for the current organoid and run

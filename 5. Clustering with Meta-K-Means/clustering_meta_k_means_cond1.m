@@ -87,7 +87,7 @@ frame_rate = 20; % 20 frames per second
 num_neurons = size(F_dff_dec, 2); % includes ALL neurons
 stimulation_start = 600; % stimulation starts at 30 seconds
 stimulation_interval = 200; % CHANGE: for cond1 every 10 sec (200) and for cond2/3 every 20 sec (400)
-total_frames = 6000; % CHANGE: For cond1 (6600) and for cond2/3 (12600)
+total_frames = 6600; % CHANGE: For cond1 (6600) and for cond2/3 (12600)
 % usnure why the duration of organoid 1 is only 5min so I will change total_frames to 6000 instead of the usual 6600.
 
 % Define stimulation points within the range of interest

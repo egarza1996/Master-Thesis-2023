@@ -35,8 +35,7 @@ base_save_directory = '/mnt/data/erika-organoid-data/CODE/CURRENT-FOLDER/PreBCT-
 
 % Define the different runs you are interested in
 % runs = {'run', 'run_1', 'run_2', 'run_3', 'run_4', 'run_5'};
-% runs = {'run', 'run_4', 'run_5'};
-runs = {'run_5'};
+runs = {'run', 'run_4', 'run_5'};
 % runs = {'run_1', 'run_2', 'run_3'};
 
 % Loop through each organoid folder
